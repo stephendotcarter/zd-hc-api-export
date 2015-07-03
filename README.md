@@ -3,10 +3,10 @@ Zendesk Help Center API Export
 
 # Description
 This script exports Zendesk Help Center objects to a relational database.
-The data can then be used to execute more advanced queries that what are possible through the Zendesk Help Center API.
+The data can then be used to execute more advanced queries than what are possible through the Zendesk Help Center API.
 
 The following objects are exported:
-* Artcles
+* Articles
 * Translations
 * Sections
 * Categories
