@@ -17,16 +17,22 @@ The following objects are exported:
 
 # Instructions
 Install the required libraries:
-    pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 Update run.sh with the following:
-    ZD_BASE_URL="https://*.zendesk.com"
-    ZD_USER=""
-    ZD_PWD=""
-    SQLALCHEMY_CONN_STRING="postgresql://user:password@localhost/database"
+```
+ZD_BASE_URL="https://*.zendesk.com"
+ZD_USER=""
+ZD_PWD=""
+SQLALCHEMY_CONN_STRING="postgresql://user:password@localhost/database"
+```
 
 Run the script:
-    ./run.sh
+```
+./run.sh
+```
 
 
 # Todo
