@@ -11,9 +11,10 @@ user = os.environ['ZD_USER']
 pwd = os.environ['ZD_PWD']
 conn_string = os.environ['SQLALCHEMY_CONN_STRING']
 
+zd = requests.session()
+
 # Get all Zendesk Objects for a given URL
 def get_all(url, key, options):
-    zd = requests.session()
 
     per_page = 100
     page = 1
