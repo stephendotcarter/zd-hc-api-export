@@ -14,6 +14,12 @@ The following objects are exported:
 * Access Policies (merged in to the section object)
 * Users
 
+Relationships:
+* Categories have zero-to-many Sections
+* Sections have zero-to-many Articles
+* Articles have one-to-many Translations
+* Articles have zero-to-many Labels
+* Labels have zero-to-many Articles
 
 # Instructions
 Install the required libraries:
